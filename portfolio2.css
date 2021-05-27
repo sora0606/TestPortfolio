@@ -5,7 +5,9 @@ html{
 }
 
 body{
+    max-width: 100%;
     font-family: monospace;
+    overflow-x: hidden;
 }
 
 img{
@@ -16,6 +18,7 @@ a{
     text-decoration: none;
     color: #000;
 }
+
 
 /*headerのスタイルシート*/
 
@@ -53,13 +56,17 @@ nav a{
 }
 
 .main-text img{
-    width: 720px;
-    height: 720px;
+    width: 1320px;
+    height: 1320px;
+    margin-left: 500px;
+    object-fit: cover;
+
 }
 
 .text{
+    position: absolute;
+    left: 200px;
     margin-top: 200px;
-    padding: 0 0 0 10px;
 }
 
 .text p{
@@ -90,13 +97,6 @@ nav a{
     left: 80px;
     z-index: 1;
     color: rgb(134, 134, 134);
-}
-
-img.pc-img{
-    width: 900px;
-    height: auto;
-    position:relative;
-    left: 500px;
 }
 
 .about-text h2{
