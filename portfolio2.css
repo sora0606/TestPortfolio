@@ -17,6 +17,8 @@ a{
     color: #000;
 }
 
+/*headerのスタイルシート*/
+
 #header{
     width: 100%;
     background:-moz-radial-gradient(  rgb(182, 181, 181) 20% , gray 70%);
@@ -69,3 +71,45 @@ nav a{
     line-height: 0.9em;
     font-size: 70px;
 }
+
+/* Aboutのスタイルシート */
+
+#about{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-text{
+    display: block;
+    padding-left: 20px;
+    margin-left: auto;
+}
+
+img.pc-img{
+    width: 800px;
+    position:relative;
+    left: 200px;
+}
+
+.about-text h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-text h4{
+    font-size: larger;
+    margin-bottom: 30px;
+}
+
+.about-text p{
+    margin-bottom: 30px;
+}
+
+.about-text img{
+    width: 40px;
+    margin-right: 20px;
+}
+
