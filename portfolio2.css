@@ -1,65 +1,65 @@
 @charset "UTF-8";
 
-html{
+html {
     font-size: 100%;
 }
 
-body{
+body {
     max-width: 100%;
-    font-family:serif;
+    font-family: serif;
     overflow-x: hidden;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 
 /*headerのスタイルシート*/
 
-#header{
+#header {
     width: 100%;
     height: 800px;
-    background:-moz-radial-gradient(  rgb(182, 181, 181) 20% , gray 70%);
-    background:-webkit-radial-gradient(rgb(182, 181, 181) 20% , gray 70%);
-    background:radial-gradient( rgb(182, 181, 181) 20% , gray 70%);
+    background: -moz-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+    background: -webkit-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+    background: radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     font-size: smaller;
 }
 
-nav img{
+nav img {
     width: 30px;
 }
 
-nav a{
+nav a {
     text-align: center;
     background-color: #fff;
-    box-shadow: 0 1px 8px #000 ;
+    box-shadow: 0 1px 8px #000;
     padding: 10px;
     width: 80px;
     height: 80px;
 }
 
-.main-text{
+.main-text {
     display: flex;
     justify-content: center;
     color: #fff;
 }
 
-.main-text img{
+.main-text img {
     width: 1325px;
     height: 1325px;
     margin-left: 500px;
@@ -67,18 +67,18 @@ nav a{
 
 }
 
-.text{
+.text {
     position: absolute;
     left: 200px;
     margin-top: 200px;
 }
 
-.text p{
+.text p {
     font-size: 30px;
     letter-spacing: 0.1em;
 }
 
-.text h1{
+.text h1 {
     font-size: 100px;
     letter-spacing: 0.2em;
     line-height: 0.9em;
@@ -86,24 +86,24 @@ nav a{
 
 /* Aboutのスタイルシート */
 
-#about{
-    display:flex;
+#about {
+    display: flex;
     flex: 1;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 600px;
     overflow: hidden;
 }
 
-.about-text{
+.about-text {
     position: absolute;
     left: 80px;
     z-index: 1;
     color: #000;
 }
 
-.moji{
+.moji {
     background-color: rgb(255, 255, 255);
     border: 0.5px solid gray;
     padding: 5px 10px;
@@ -111,7 +111,7 @@ nav a{
     top: 100px;
 }
 
-.box{
+.box {
     margin-left: 30px;
     margin-top: 60px;
     width: 680.58px;
@@ -120,29 +120,29 @@ nav a{
     opacity: 0.5;
 }
 
-h2{
+h2 {
     font-size: 40px;
     margin-bottom: 20px;
     padding: 10px;
     color: #000;
 }
 
-#about h2{
+#about h2 {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.about-text h4{
+.about-text h4 {
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.about-text p{
+.about-text p {
     font-size: 20px;
-    font-weight:normal;
+    font-weight: normal;
     margin-bottom: 30px;
 }
 
-.about-text img{
+.about-text img {
     width: 40px;
     margin-right: 20px;
     margin-top: 20px;
@@ -150,60 +150,61 @@ h2{
 
 /* projectsのスタイルシート */
 
-#projects{
+#projects {
     width: 100%;
     height: 1600px;
 }
 
-#projects img{
+#projects img {
     width: 600px;
     height: 600px;
     margin-left: 60px;
 }
 
-#projects .projects{
+#projects .projects {
     display: inline-block;
     margin: 80px 0 0 80px;
 }
 
-.twitter, .netflix{
+.twitter,
+.netflix {
     display: flex;
     align-items: center;
 }
 
-.projects-text{
+.projects-text {
     flex-direction: column;
     margin-left: 100px;
     line-height: 3em;
     padding-right: 10px;
 }
 
-.projects-1{
+.projects-1 {
     height: 800px;
-    background:-moz-radial-gradient(  rgb(182, 181, 181) 20% , gray 70%);
-    background:-webkit-radial-gradient(rgb(182, 181, 181) 20% , gray 70%);
-    background:radial-gradient( rgb(182, 181, 181) 20% , gray 70%);
+    background: -moz-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+    background: -webkit-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+    background: radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
     color: #fff;
 }
 
-.projects-1 h2{
+.projects-1 h2 {
     color: #fff;
 }
 
 
-.twitter{
+.twitter {
     margin-top: 60px;
 }
 
-dd{
+dd {
     font-size: 20px;
 }
 
-hr{
+hr {
     margin: 10px 0;
 }
 
-.projects-1 a{
+.projects-1 a {
     color: #fff;
     font-size: 20px;
     padding: 10px 20px;
@@ -211,16 +212,17 @@ hr{
     margin-right: 10px;
 }
 
-.projects-1 a:last-child{
+.projects-1 a:last-child {
     margin-right: 0;
 }
 
-.projects-1 a:first-child{
-    color: rgb(134, 134, 134);;
+.projects-1 a:first-child {
+    color: rgb(134, 134, 134);
+    ;
     background-color: #fff;
 }
 
-.projects-2 .link a{
+.projects-2 .link a {
     color: #fff;
     font-size: 20px;
     padding: 10px 20px;
@@ -229,63 +231,335 @@ hr{
     background-color: #000;
 }
 
-.projects-2 .link a:last-child{
+.projects-2 .link a:last-child {
     margin-right: 0;
 }
 
-.projects-2 a:first-child{
+.projects-2 a:first-child {
     background-color: #fff;
     color: #000;
 }
 
-.projects-2 p{
+.projects-2 p {
     color: rgb(134, 134, 134);
 }
 
 /* contactsのスタイルシート */
 
-#contacts{
+#contacts {
     background-color: rgb(39, 39, 39);
     color: #fff;
     height: 300px;
 }
 
-#contacts img{
+#contacts img {
     width: 30px;
 }
 
-.contacts{
+.contacts {
     padding-top: 80px;
     padding-left: 50px;
     line-height: 3em;
 }
 
-#contacts h2{
+#contacts h2 {
     color: #fff;
 }
 
 
-#contacts li{
+#contacts li {
     display: flex;
     align-items: center;
     font-size: 20px;
 }
 
-#contacts li p{
+#contacts li p {
     margin-left: 15px;
     letter-spacing: 0.2rem;
 }
 
 /* footerのスタイルシート */
 
-#footer{
+#footer {
     height: 50px;
     background-color: gray;
     text-align: center;
 }
 
-#footer p{
+#footer p {
     color: #fff;
     font-size: 0.8em;
     padding: 18px 0;
+}
+
+@media screen and (max-width:1165px) {
+    #header {
+        width: 100%;
+        height: 1800px;
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 50px;
+    }
+
+    nav a {
+        text-align: center;
+        background-color: transparent;
+        box-shadow: none;
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .main-text {
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+    }
+
+    .main-text img {
+        width: 900px;
+        height: 1000px;
+        margin: 0;
+        padding: 0;
+        object-fit: none;
+        margin-left: 160px;
+        margin-top: 78px;
+    }
+
+    .text {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .text p {
+        font-size: 40px;
+        letter-spacing: 0.1em;
+    }
+
+    .text h1 {
+        font-size: 120px;
+        line-height: 1.3em;
+    }
+
+    .about-text {
+        position: relative;
+        left: 0;
+    }
+
+    #projects {
+        width: 100%;
+        height: 3200px;
+        text-align: center;
+    }
+
+    #projects img {
+        width: 600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    #projects .projects {
+        display: inline-block;
+        margin: 60px 0;
+    }
+
+    .twitter,
+    .netflix {
+        flex-direction: column;
+    }
+
+    .projects-text {
+        flex-direction: column;
+        margin-left: 0;
+        line-height: 4em;
+        padding: 0 10px;
+    }
+
+    .projects-1 {
+        height: 1800px;
+        background: -moz-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        background: -webkit-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        background: radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        color: #fff;
+    }
+
+    .projects-1 h2 {
+        color: #fff;
+        margin: 40px 0;
+    }
+
+    .projects-1 a {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        margin-right: 10px;
+    }
+
+    .contacts {
+        text-align: none;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+
+
+    #contacts li {
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    #contacts li p {
+        margin-left: 15px;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #header {
+        width: 100%;
+        height: 750px;
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 20px;
+        margin-left: 15px;
+    }
+
+    nav a {
+        background-color: transparent;
+        box-shadow: none;
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+    }
+
+    .main-text {
+        display: inline;
+        color: #fff;
+        text-align: center;
+    }
+
+    .main-text img {
+        width: 1000px;
+        height: 1000px;
+        margin: 0;
+        padding: 0;
+        object-fit: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .text {
+        position:static;
+        left: 0;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .text p {
+        letter-spacing: 0.1em;
+        font-size: 20px;
+    }
+
+    .text h1 {
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+    .about-text {
+        position: relative;
+        left: 0;
+        width: 300px;
+    }
+    .box {
+        margin-left: 30px;
+        margin-top: 60px;
+        width: 300px;
+        height: 336px;
+        background-color: rgb(148, 147, 147);
+        opacity: 0.5;
+    }
+
+    #projects {
+        width: 100%;
+        height: 3200px;
+        text-align: center;
+    }
+
+    #projects img {
+        width:400px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    #projects .projects {
+        display: inline-block;
+        margin: 60px 0;
+    }
+
+    .twitter,
+    .netflix {
+        flex-direction: column;
+    }
+
+    .projects-text {
+        flex-direction: column;
+        margin-left: 0;
+        line-height: 4em;
+        padding: 0 10px;
+    }
+
+    .projects-1 {
+        height: 1800px;
+        background: -moz-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        background: -webkit-radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        background: radial-gradient(rgb(182, 181, 181) 20%, gray 70%);
+        color: #fff;
+    }
+
+    .projects-1 h2 {
+        color: #fff;
+        margin: 40px 0;
+    }
+
+    .projects-1 a {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        margin-right: 10px;
+    }
+
+    .contacts {
+        text-align: none;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+
+
+    #contacts li {
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    #contacts li p {
+        margin-left: 15px;
+        letter-spacing: 0.2rem;
+    }
+
 }
