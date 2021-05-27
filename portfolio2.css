@@ -6,7 +6,7 @@ html{
 
 body{
     max-width: 100%;
-    font-family:'ＭＳ ゴシック';
+    font-family:serif;
     overflow-x: hidden;
 }
 
@@ -114,17 +114,21 @@ nav a{
 .box{
     margin-left: 30px;
     margin-top: 60px;
-    width: 734.5px;
-    height: 228px;
+    width: 680.58px;
+    height: 230px;
     background-color: rgb(148, 147, 147);
+    opacity: 0.5;
 }
 
 h2{
     font-size: 40px;
     margin-bottom: 20px;
     padding: 10px;
-    border-bottom: 1px solid rgb(0, 0, 0);
     color: #000;
+}
+
+#about h2{
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .about-text h4{
@@ -170,7 +174,7 @@ h2{
 .projects-text{
     flex-direction: column;
     margin-left: 100px;
-    line-height: 4em;
+    line-height: 3em;
     padding-right: 10px;
 }
 
@@ -179,7 +183,6 @@ h2{
     background:-moz-radial-gradient(  rgb(182, 181, 181) 20% , gray 70%);
     background:-webkit-radial-gradient(rgb(182, 181, 181) 20% , gray 70%);
     background:radial-gradient( rgb(182, 181, 181) 20% , gray 70%);
-    z-index: 3;
     color: #fff;
 }
 
@@ -193,7 +196,7 @@ h2{
 }
 
 dd{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 hr{
