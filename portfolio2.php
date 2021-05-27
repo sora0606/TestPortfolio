@@ -1,3 +1,3 @@
 <?php
-    include_once("portfolio2.html");
+include_once("portfolio2.html");
 ?>
